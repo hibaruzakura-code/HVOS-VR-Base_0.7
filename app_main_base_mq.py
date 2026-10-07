@@ -1,4 +1,4 @@
-# HVOS PC VR (Base Edition) v0.7 / 2026-10-07  ※Meta Quest 3 専用
+# HVOS VR (Base Edition) v0.7 / 2026-10-07  ※Meta Quest 3 専用
 # API キーは config.json から読みます（初回起動時に入力）。
 #
 # 0.1 MQ【公開】260908 / 0.2 MQ→PC【修正】260908 / 0.3 PC【追加・修正】260911
@@ -100,8 +100,8 @@ gemini_client = genai.Client(api_key=GEMINI_API_KEY)
 app = Flask(__name__)
 
 latest_result = {
-    "title": "HVOS PC VR (v0.7) - スタンバイ完了",
-    "gemini_content": "【HVOS (PC VR v0.7) スタンバイOK！】\nキーボードの【1】を押すと、撮影＆解析を実行します。",
+    "title": "HVOS VR (v0.7) - スタンバイ完了",
+    "gemini_content": "【HVOS (VR v0.7) スタンバイOK！】\nキーボードの【1】を押すと、撮影＆解析を実行します。",
     "timestamp": ""
 }
 
@@ -338,7 +338,7 @@ if __name__ == '__main__':
     local_ip = get_local_ip()
 
     print("\n==========================================")
-    print("=== HVOS PC VR Base Edition v0.7 稼働中 ===")
+    print("=== HVOS VR Base Edition v0.7 稼働中 ===")
     print(f"・Questブラウザ用URL: http://{local_ip}:5000")
     print(f"・使用モデル        : {selected_model}")
     print("==========================================\n")

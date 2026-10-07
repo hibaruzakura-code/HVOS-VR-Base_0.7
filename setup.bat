@@ -1,6 +1,6 @@
 @echo off
 echo ==========================================
-echo  HVOS PC VR ver0.7 Setup
+echo  HVOS VR ver0.7 Setup
 echo ==========================================
 
 set PKGS=flask pyautogui keyboard pygetwindow pillow google-genai
